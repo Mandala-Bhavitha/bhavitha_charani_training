@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Operators Demo</title>
+</head>
+<body>
+
+<h1>Hello, Welcome</h1>
+
+<script>
+    /* ===============================
+       DATA TYPES & TYPE CONVERSION
+    =============================== */
+
+    let a = 10;
+    let b = "6";
+
+    console.log("Values:", a, b);
+    console.log("Types:", typeof a, typeof b);
+
+    console.log("Addition (number + string):", a + b);
+    console.log("Type after addition:", typeof (a + b));
+
+    let c = Number(b);
+    console.log("Converted b to number:", c);
+    console.log("Type of c:", typeof c);
+
+
+    /* ===============================
+       ARITHMETIC OPERATORS
+    =============================== */
+
+    let x = 23;
+    let y = 7;
+
+    console.log("Addition:", x + y);
+    console.log("Subtraction:", x - y);
+    console.log("Multiplication:", x * y);
+    console.log("Exponent:", x ** y);
+    console.log("Square of y:", y ** 2);
+    console.log("Division:", x / y);
+    console.log("Modulus:", x % y);
+
+
+    /* ===============================
+       ASSIGNMENT OPERATORS
+    =============================== */
+
+    let num1 = 10;
+    let num2 = 5;
+
+    num1 += num2;
+    console.log("+= :", num1);
+
+    num1 -= num2;
+    console.log("-= :", num1);
+
+    num1 *= num2;
+    console.log("*= :", num1);
+
+    num1 /= num2;
+    console.log("/= :", num1);
+
+    num1 %= num2;
+    console.log("%= :", num1);
+
+    num1 &= num2;
+    console.log("&= :", num1);
+
+    num1 |= num2;
+    console.log("|= :", num1);
+
+
+    /* ===============================
+       UNARY OPERATORS
+    =============================== */
+
+    let s = 20;
+    console.log("Original:", s);
+
+    console.log("Unary + :", +s);
+    console.log("Unary - :", -s);
+
+    console.log("Pre Increment:", ++s);
+    console.log("Pre Decrement:", --s);
+
+    console.log("Post Increment:", s++);
+    console.log("After Post Increment:", s);
+
+    console.log("Post Decrement:", s--);
+    console.log("After Post Decrement:", s);
+
+
+    /* ===============================
+       COMPARISON OPERATORS
+    =============================== */
+
+    let p = 23;
+    let q = 7;
+
+    console.log(">", p > q);
+    console.log("<", p < q);
+    console.log(">=", p >= q);
+    console.log("<=", p <= q);
+    console.log("==", p == q);
+    console.log("!=", p != q);
+    console.log("===", p === q);
+    console.log("!==", p !== q);
+
+
+    /* ===============================
+       LOGICAL OPERATORS
+    =============================== */
+
+    console.log("!undefined:", !undefined);
+    console.log("!null:", !null);
+    console.log("!20:", !20);
+    console.log("!0:", !0);
+    console.log("!NaN:", !NaN);
+    console.log("!{}:", !{});
+    console.log("!'' :", !"");
+    console.log("!'Text':", !"Text");
+    console.log("!false:", !false);
+    console.log("!true:", !true);
+
+    let m = 34;
+    let n = 45;
+
+    console.log("AND (&&):", m && n);
+    console.log("OR (||):", m || n);
+
+</script>
+
+</body>
+</html>
